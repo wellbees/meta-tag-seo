@@ -1,6 +1,6 @@
 {
-  "short_name": "meta-tag-seo",
-  "name": "meta-tag-seo",
+  "short_name": "@wellbees/meta-tag-seo",
+  "name": "@wellbees/meta-tag-seo",
   "icons": [
     {
       "src": "favicon.ico",

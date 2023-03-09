@@ -1,16 +1,22 @@
 {
-  "name": "meta-tag-seo",
+  "name": "@wellbees/meta-tag-seo",
   "version": "1.0.0",
   "description": "Meta tags and seo information manager for Reactjs",
-  "author": "wellbees",
-  "license": "MIT",
-  "repository": "meta-tag-seo",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.js",
-  "engines": {
-    "node": ">=10"
+  "publishConfig": {
+    "access": "public"
   },
+  "files": [
+    "dist"
+  ],
+  "author": {
+    "name": "Wellbees Tech",
+    "url": "https://github.com/wellbees"
+  },
+  "license": "MIT",
+  "repository": "wellbees/meta-tag-seo",
   "scripts": {
     "build": "microbundle-crl --no-compress --format modern,cjs",
     "start": "microbundle-crl watch --no-compress --format modern,cjs",
@@ -23,8 +29,19 @@
     "predeploy": "cd example && npm install && npm run build",
     "deploy": "gh-pages -d example/build"
   },
-  "peerDependencies": {
-    "react": "^16.0.0"
+  "keywords": [
+    "reactjs",
+    "react",
+    "meta tags",
+    "seo tags",
+    "seo",
+    "search engine optimization"
+  ],
+  "dependencies": {
+    "prop-types": "^15.8.1"
+  },
+  "engines": {
+    "node": ">=10"
   },
   "devDependencies": {
     "microbundle-crl": "^0.13.10",
@@ -47,7 +64,7 @@
     "react-dom": "^16.13.1",
     "react-scripts": "^3.4.1"
   },
-  "files": [
-    "dist"
-  ]
+  "peerDependencies": {
+    "react": ">=16.13.1"
+  }
 }
