@@ -1,6 +1,6 @@
 {
   "name": "@wellbees/meta-tag-seo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Meta tags and seo information manager for Reactjs",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",

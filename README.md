@@ -36,7 +36,7 @@ const App = () => {
       <div>
         Page Layout
       <div>
-	   <MetaFooter>{/* Adds to the bottom inside the body tag */}</MetaFooter>
+      <MetaFooter>{/* Adds to the bottom inside the body tag */}</MetaFooter>
     </MetaProvider>
   )
 }
@@ -54,33 +54,33 @@ const Page = () => {
   return (
     <div>
       {/* Small Usage */}
-		<MetaTags title='' description='' equalTitle equalDescription />
+      <MetaTags title='' description='' equalTitle equalDescription />
 
       {/* Full Usage */}
       <MetaTags
         title=''
-		  description=''
-		  keywords=''
-		  openGraph={{
-			 type: '',
-			 title: '',
-			 description: '',
-			 image: '',
-			 video: '',
-			 audio: ''
-		  }}
-		  twitter={{
-			 card: '',
-			 title: '',
-			 description: '',
-			 image: ''
-		  }}
-		>
-		  {/* Adds to the bottom inside the head tag */}
-		</MetaTags>
+        description=''
+        keywords=''
+        openGraph={{
+          type: '',
+          title: '',
+          description: '',
+          image: '',
+          video: '',
+          audio: ''
+        }}
+        twitter={{
+          card: '',
+          title: '',
+          description: '',
+          image: ''
+        }}
+      >
+        {/* Adds to the bottom inside the head tag */}
+      </MetaTags>
 
-		Page Layout
-	 </div>
+		  Page Layout
+	  </div>
   )
 }
 
